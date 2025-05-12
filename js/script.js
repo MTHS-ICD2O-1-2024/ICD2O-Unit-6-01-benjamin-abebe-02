@@ -17,8 +17,8 @@ function myButtonClicked() {
  * Check servie worker.
  */
 if (navigator.serviceWorker) {
-  navigator.serviceWorker.register("/ICD2O-Unit-5-08-benjamin-abebe-02/sw.js", {
-    scope: "/ICD2O-Unit-5-08-benjamin-abebe-02/",
+  navigator.serviceWorker.register("/ICD2O-Unit-5-06-benjamin-abebe-02/sw.js", {
+    scope: "/ICD2O-Unit-5-06-benjamin-abebe-02/",
   })
 }
 

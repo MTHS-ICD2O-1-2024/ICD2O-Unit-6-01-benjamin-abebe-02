@@ -2,8 +2,8 @@
   "name": "Benjamins' app",
   "short_name": "Benjamins' App",
   "description": "Github Page for Mr Coxall's App",
-  "scope": "/ICD2O-Unit-5-08-benjamin-abebe-02/",
-  "start_url": "/ICD2O-Unit-5-08-benjamin-abebe-02/",
+  "scope": "/ICD2O-Unit-5-06-benjamin-abebe-02/",
+  "start_url": "/ICD2O-Unit-5-06-benjamin-abebe-02/",
   "permissions": [ 
     "unlimitedStorage",
     "fullscreen"
