@@ -6,22 +6,23 @@
 
 "use strict"
 
+
+/**
+ * Check servie worker.
+ */
+if (navigator.serviceWorker) {
+  navigator.serviceWorker.register("/ICS2O-PWA-Test/sw.js", {
+    scope: "/ICS2O-PWA-Test/",
+  })
+}
+
 // process
 function myButtonClicked() {
   const multiplicandA = parseFloat(document.getElementById("multiplicand").value)
   const multiplierB = parseFloat(document.getElementById("multiplier").value)
   let result = 0
   let count = 0
-
-  /**
- * Check servie worker.
- */
-if (navigator.serviceWorker) {
-  navigator.serviceWorker.register("/ICD2O-Unit-6-01-benjamin-abebe-02/sw.js", {
-    scope: "/ICD2O-Unit-6-01-benjamin-abebe-02/",
-  })
-}
-
+  
   while (count < multiplierB) {
     result += multiplicandA
     count++
